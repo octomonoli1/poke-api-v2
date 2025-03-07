@@ -1,0 +1,17 @@
+<main>
+    <!-- Tarjeta 1 -->
+    <div *ngFor="let pokemon of pokemons">
+      <a href="{{getDetailUrl(pokemon)}}">
+        <div class="card">
+          <img src="{{getImageByUrl(pokemon)}}" alt="Imagen 1">
+          <h3>{{pokemon.name}}</h3>
+        </div>
+      </a>
+    </div>
+  </main>
+
+  <!-- Paginación -->
+  <div class="pagination">
+    <button>Anterior</button>
+    <button>Siguiente</button>
+  </div>

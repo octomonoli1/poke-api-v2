@@ -1,0 +1,25 @@
+footer {
+    background-color: #a89d9d;
+    color: rgb(197, 45, 45);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px; /* Separación adicional entre la paginación y el footer */
+  }
+
+  footer p {
+    font-size: 1.1em;
+    margin: 0;
+  }
+
+  footer nav a {
+    color: rgb(197, 45, 45);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+  }
+
+  footer nav a:hover {
+    color: #FFD700;
+  }
